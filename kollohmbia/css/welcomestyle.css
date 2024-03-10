@@ -1,0 +1,269 @@
+body {
+  background-image: url("http://localhost/kollohmbia/images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav li {
+  margin-left: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+header nav a:hover {
+  color: #007bff;
+}
+
+.profile {
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.profile p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.hero {
+  position: relative;
+  height: 200px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.slideshow-wrapper {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.prev:hover,
+.next:hover {
+  opacity: 1;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.section > * {
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-top: 300px;
+
+  margin-top: 300px;
+  min-height: 400px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 80%;
+  max-width: 1000px;
+  height: 200px;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.section > * {
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333;
+}
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.section p {
+  line-height: 1.6;
+  font-size: 14px;
+  color: #333;
+}
+
+.learn-more {
+  display: inline-block;
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.learn-more:hover {
+  background-color: gold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.content {
+  position: relative;
+  margin-top: 80px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: 20%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.slideshow-wrapper {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.section {
+  margin-top: 300px;
+  min-height: 400px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 80%;
+  max-width: 1000px;
+  height: 200px;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
